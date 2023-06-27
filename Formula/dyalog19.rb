@@ -7,7 +7,7 @@ class Dyalog19 < Formula
 
   def install
     prefix.install "mdyalog"
-    bin.install_symlilnk prefix/"mdyalog/mapl"
+    bin.install_symlink prefix/"mdyalog/mapl"
   end
 
   test do
