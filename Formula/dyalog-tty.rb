@@ -1,7 +1,7 @@
 class DyalogTty < Formula
-  name "Dyalog (TTY only)"
-  version "19.0.47176"
+  name "dyalog-tty"
   desc "Dyalog APL-based development environment (TTY only)"
+  version "19.0.47176"
   homepage "https://www.dyalog.com/"
   url "https://packages.dyalog.com/homebrew/dyalog-tty-#{version}-arm64.tgz"
   sha256 "82b67777cee3d1c1ee4c93baa8871db706fd320b0257dc7427c777b0e70a6e66"
