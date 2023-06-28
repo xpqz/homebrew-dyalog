@@ -1,5 +1,4 @@
 class DyalogTty < Formula
-  name "dyalog-tty"
   desc "Dyalog APL-based development environment (TTY only)"
   version "19.0.47176"
   homepage "https://www.dyalog.com/"
@@ -15,10 +14,5 @@ class DyalogTty < Formula
   end
 
   test do
-  end
-
-  caveats do
-    free_license "https://www.dyalog.com/download-zone.htm"
-    license "https://www.dyalog.com/uploads/documents/Developer_Software_Licence.pdf"
   end
 end
