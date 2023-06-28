@@ -1,5 +1,5 @@
 class DyalogTty < Formula
-  # name "Dyalog (TTY only)"
+  name "Dyalog (TTY only)"
   version "19.0.47176"
   desc "Dyalog APL-based development environment (TTY only)"
   homepage "https://www.dyalog.com/"
@@ -7,7 +7,7 @@ class DyalogTty < Formula
   sha256 "82b67777cee3d1c1ee4c93baa8871db706fd320b0257dc7427c777b0e70a6e66"
   license ""
 
-  # depends_on arch: :arm64
+  depends_on arch: :arm64
 
   def install
     prefix.install "mdyalog"
@@ -17,8 +17,8 @@ class DyalogTty < Formula
   test do
   end
 
-  # caveats do
-  #   free_license "https://www.dyalog.com/download-zone.htm"
-  #   license "https://www.dyalog.com/uploads/documents/Developer_Software_Licence.pdf"
-  # end
+  caveats do
+    free_license "https://www.dyalog.com/download-zone.htm"
+    license "https://www.dyalog.com/uploads/documents/Developer_Software_Licence.pdf"
+  end
 end
