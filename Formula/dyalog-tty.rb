@@ -11,6 +11,8 @@ class DyalogTty < Formula
   def install
     prefix.install "mdyalog"
     bin.install_symlink prefix/"mdyalog/mapl" => "dyalog"
+    bin.install_symlink prefix/"mdyalog/scriptbin/dyalogscript" => "dyalogscript"
+    bin.install_symlink prefix/"mdyalog/scriptbin/dyalogscript.bash" => "dyalogscript.bash"
   end
 
   test do

@@ -1,4 +1,4 @@
-# Xpqz Dyalog
+# Xpqz Dyalog Tap
 
 ## How do I install these formulae?
 
